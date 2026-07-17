@@ -19,7 +19,7 @@ body{
     width: 100%;
     height: 80px;
     background-color: white;
-    position: sticky;
+    position: relative;
 }
 
 #a1{
@@ -81,24 +81,100 @@ body{
 #main1{
     position: relative;
     top: 37.5vh;
-    background-color: black;
+    background-color: gray;
     width: 100%;
-    border: 1px solid gray;
-    border-left: none;
-    border-right: none;
+    height: 150px;
 }
 
 #a3{
     font-size: 40px;
     color: black;
-    text-shadow: 5px 5px 30px gray, -5px -5px 30px gray;
+    text-shadow: 5px 5px 30px black, -5px -5px 30px black;
     font-weight: bolder;
+    position: absolute;
+    left: 22%;
+    top: -20px;
 }
 
 .li1{
     color: black;
     list-style: none;
     text-align: center;
+    position: relative;
+    text-shadow: 5px 5px 30px black, -5px -5px 30px black;
+    top: 70px;
+    font-size: 20px;
+    left: -50px;
 }
+
+.review1{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#rev1{
+    left: 15%;
+    top: 30vmax;
+    transition: scale 0.2s linear;
+}
+
+#rev2{
+    left: 40%;
+    top: 13vmax;
+    transition: scale 0.2s linear;
+}
+
+#rev3{
+    left: 65%;
+    top: -3.5vmax;
+    transition: scale 0.2s linear;
+}
+
+.name1{
+    font-size: 25px;
+    position: relative;
+    top: -10px;
+}
+
+.star1{
+    font-size: 15px;
+    position: absolute;
+    left: 65%;
+    top: 10px;
+}
+
+#reviews{
+    position: relative;
+    left: 44%;
+    font-size: 25px;
+    color: gray
+}
+
+#reviews:active{
+    color: black;
+}
+
+/* #others1{
+    position: absolute;
+    top: 60vmax;
+    left: 42%;
+} */
+
+#rev1:hover{
+    scale: 1.2;
+}
+
+#rev2:hover{
+    scale: 1.2;
+}
+
+#rev3:hover{
+    scale: 1.2;
+}
+
 
 
